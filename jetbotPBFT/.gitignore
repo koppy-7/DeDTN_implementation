@@ -1,0 +1,29 @@
+# Secrets and local runtime config
+.env
+.env.*
+!.env.example
+keys
+keys/
+keystore/
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+
+# Python generated files and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+yolo/
+
+# Logs and generated results
+*.log
+log.txt
+results/
+
+# Large local model artifacts
+*.pt
