@@ -28,10 +28,11 @@ However, large-scale DTNs face several challenges:
 
 To address these issues, this project combines:
 
-Layer 1:
+Layer 2:
 - off-chain PBFT consensus 
 - semantic verification
-Layer 2:
+
+Layer 1:
 - external PoA blockchain integration
 
 The system performs distributed consensus on semantic data before recording results onto a blockchain.
