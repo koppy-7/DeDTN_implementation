@@ -27,13 +27,12 @@ The system performs distributed consensus on semantic data before recording resu
 
 ## System Flow
 - In the each edge device,
-1. Semantic data is generated
+1. Semantic data is generated using AI
 2. Watcher detects updates
-3. Primary node proposes payload
-4. Replica nodes verify semantic consistency
-5. PBFT consensus is executed
-6. Consensus result is committed
-7. Final result is recorded on a PoA blockchain
+3. Primary node proposes semantic data for each replica nodes
+4. PBFT consensus is executed and Replica nodes verify semantic consistency
+5. Consensus result is committed
+6. Final result is recorded on a PoA blockchain
 
 ---
 
